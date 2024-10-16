@@ -89,7 +89,7 @@ fun GameBoard(session: GameSession, moveIndex: Int) {
                 for (j in 0 until field) {
                     Box(
                         modifier = Modifier
-                            .size(80.dp)
+                            .size(75.dp)
                             .padding(4.dp)
                             .background(Color.White, RoundedCornerShape(4.dp)),
                         contentAlignment = Alignment.Center
